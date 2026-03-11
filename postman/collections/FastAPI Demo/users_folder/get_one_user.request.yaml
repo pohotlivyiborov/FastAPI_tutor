@@ -1,5 +1,0 @@
-$kind: http-request
-name: get_one_user
-url: http://127.0.0.1:8000/users/9
-method: GET
-order: 4419721832173579

@@ -1,8 +1,0 @@
-name: New Environment
-values:
-  - key: URL
-    value: ''
-    enabled: true
-  - key: JWT
-    value: ''
-    enabled: true
