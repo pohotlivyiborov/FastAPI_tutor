@@ -1,0 +1,6 @@
+$kind: http-request
+name: post posts
+url: http://127.0.0.1:8000/posts/
+method: GET
+order: 1773165990380
+examples: ./.resources\post posts.resources\examples

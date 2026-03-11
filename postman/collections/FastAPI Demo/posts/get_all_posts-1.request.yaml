@@ -1,0 +1,5 @@
+$kind: http-request
+name: get_all_posts
+url: http://127.0.0.1:8000/posts/
+method: GET
+order: 2299086605498104

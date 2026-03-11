@@ -1,0 +1,17 @@
+$kind: http-request
+name: Login
+method: POST
+url: '{{URL}}/login'
+order: 1000
+body:
+  type: urlencoded
+  content:
+    - key: username
+      value: user@example.com
+    - key: password
+      value: password123
+scripts:
+  - type: afterResponse
+    language: text/javascript
+    code: |-
+      pm.environment.set("JWT", pm.response.json().access_token);
